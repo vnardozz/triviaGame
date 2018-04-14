@@ -1,0 +1,68 @@
+body {
+    background: url("../images/2-fast-2-furious.jpeg");
+    background-size: 100%;
+}
+
+#page-title {
+    font-family: 'Signika', sans-serif;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+#direction {
+    position: absolute;
+    left: 45%;
+    max-width: 200px;
+    font-family: 'Signika', sans-serif;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+#start {
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+    font-size: 40px;
+}
+
+#end {
+    position: absolute;
+    bottom: -2%;
+    left: -1%;
+    font-size: 50px;
+}
+
+#question, #answer {
+    background: rgba(0, 0, 0, 0.726); 
+    max-width: 650px;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 40px;
+    color: rgb(252, 90, 62);
+    font-family: 'Signika', sans-serif;
+    
+}
+
+    #display {
+    background: rgba(0, 0, 0, 0.726); 
+    max-width: 300px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 40px;
+}
+
+.each-question {
+    border: 3px solid blue;
+    padding: 7px;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
